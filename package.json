@@ -1,12 +1,12 @@
 {
-  "name": "parcel-project-template",
+  "name": "goit-js-hw-10",
   "version": "1.1.0",
-  "description": "",
+  "description": "Homework 10",
   "main": "index.js",
-  "homepage": "https://AlonaHarnyk.github.io/parcel_old",
+  "homepage": "https://oksemko.github.io/goit-js-hw-10/",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /parcel_old/"
+    "build": "parcel build src/*.html --public-url /goit-js-hw-10/"
   },
   "repository": {
     "type": "git",
@@ -25,5 +25,8 @@
     "posthtml-include": "^1.6.2",
     "sass": "^1.32.8"
   },
-  "dependencies": {}
+  "dependencies": {
+    "lodash.debounce": "^4.0.8",
+    "notiflix": "^3.2.5"
+  }
 }
